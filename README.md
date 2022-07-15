@@ -1,6 +1,5 @@
-# spotify_ui
 
-Spotify UI - Single screen (Home)
+<h1>Spotify UI - Single screen (Home)</h1>
 
 ## Shots
 
