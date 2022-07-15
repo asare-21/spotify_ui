@@ -1,3 +1,4 @@
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:spotify_ui/config/app_config.dart';
@@ -16,10 +17,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Spotify',
-      debugShowCheckedModeBanner: false,
-      theme: AppTheme(context).apptheme,
-      home: const MainScreen(),
-    );
+        title: 'Spotify',
+        debugShowCheckedModeBanner: false,
+        theme: AppTheme(context).apptheme,
+        home: AnimatedSplashScreen(
+          backgroundColor: coffeBlack,
+          nextScreen: const MainScreen(),
+          splash: "assets/splash.png",
+        ));
   }
 }

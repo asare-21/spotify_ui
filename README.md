@@ -3,7 +3,11 @@
 
 ## Shots
 
+<div>
+<img src="https://user-images.githubusercontent.com/52238457/179265829-eb6951d3-9b3a-4e81-a881-6f4bbdb3c763.png" width="300px" />
 <img src="https://user-images.githubusercontent.com/52238457/179263455-9a304af1-f0d1-4789-a212-ec81b214b49f.png" width="300px" />
+</div>
+
 
 
 ## Getting Started
